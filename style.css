@@ -1,8 +1,27 @@
+body {
+    background-color: black;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: transparent;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 5vw;
+    margin: auto;
+    
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    -webkit-background-clip:text;
+    
+}
+
+
 #clockContainer {
     position: relative;
     margin: auto;
-    height: 40vw;
-    width: 40vw;
+    height: 45vw;
+    width: 45vw;
     background: url(images/clock3.png) no-repeat;
     background-size: 100%;
 }
@@ -38,7 +57,7 @@
     left: 50.69%;
     /* display: none; */
 }
-#hour, #minute, #second, body {
+#hour, #minute, #second {
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
                 radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 }
