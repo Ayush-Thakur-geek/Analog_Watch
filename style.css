@@ -41,7 +41,7 @@ h1 {
    animation-direction: normal;
    animation-fill-mode: none; */
    /* animation: fade 3s ease-in-out 1s 1; */
-   animation: fade 3s ease-in-out 0s 1 reverse;
+   animation: fade 5s ease 0s 1 reverse;
 }
 
 .fogContainer {
